@@ -1,0 +1,69 @@
+
+{
+    "thmr63":{
+        "nameeng"   : "Thai Hom Mali Rice - Premium (2019/20)",
+        "nameth"    : "ข้าวหอมมะลิไทย ชนิดพิเศษ (62/63)",
+        "price"     : 26953.4
+    },
+    "thmr64":{
+        "nameeng"   : "Thai Hom Mali Rice - Premium (2020/21)",
+        "nameth"    : "ข้าวหอมมะลิไทย ชนิดพิเศษ (63/64)",
+        "price"     : 25395.4
+
+    },
+    "thmbr":{
+        "nameeng"   : "Thai Hom Mali Broken Rice A.1 Super",
+        "nameth"    : "ปลายข้าวหอมมะลิ เอ วัน เลิศ",
+        "price"     : 14084.32
+
+    },
+    "tj":{
+        "nameeng"   : "Thai Jasmine Rice (Thai Fragrant Rice)",
+        "nameth"    : "ข้าวหอมไทย",
+        "price"     : 20285.16
+
+    },
+    "wrb":{
+        "nameeng"   : "White Rice 100% Grade B",
+        "nameth"    : "ข้าวขาว 100% ชั้น 2",
+        "price"     : 15580
+
+    },
+    "wr5":{
+        "nameeng"   : "White Rice 5%",
+        "nameth"    : "ข้าวขาว 5%",
+        "price"     : 15050.28
+
+    },
+    "wr25":{
+        "nameeng"   : "White Rice 25%",
+        "nameth"    : "ข้าวขาว 25%",
+        "price"     : 14676.36
+
+    },
+    "wbr":{
+        "nameeng"   : "White Broken Rice A.1 Super",
+        "nameth"    : "ปลายข้าว เอ วัน เลิศ",
+        "price"     : 13429.96
+
+    },
+    "wgr":{
+        "nameeng"   : "White Glutinous Rice 10% (Major crop)",
+        "nameth"    : "ข้าวเหนียวขาว 10% (นาปี)",
+        "price"     : 22591
+
+    },
+    "prp":{
+        "nameeng"   : "Parboiled Rice 100% - Premium Quality",
+        "nameth"    : "ข้าวนึ่ง 100% ชนิดพิเศษ",
+        "price"     : 15361.88
+
+    },
+    "pr":{
+        "nameeng"   : "Parboiled Rice 100%",
+        "nameth"    : "ข้าวนึ่ง100%",
+        "price"     : 15174.92
+
+    }
+
+}
