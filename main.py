@@ -4,7 +4,7 @@ import json
 app = FastAPI()
 
   
-@app.get('/bmi')
+# @app.get('/bmi')
 # x:int:xxx (if none value x = xxx)
 def bmi(h : int = 170, w: int = 50):
 
@@ -35,20 +35,20 @@ def cal_rice_price(type: str = 'tj', w: int = 10, u: str = 'kg'):
     }
 # ::hx = the humidity appears ::hy = the humidity need
 @app.get('/ricecalculator/humidity')
-def rice_humidity(type: str = 'tj', hx: int = 25, hy: int = 15):
+def rice_humidity(type: str = 'tj', humidity: int = 25, dehumidify: int = 15):
     data = json.load(open('data.json'))
     w    = 1
-    if hy > 15:
-        w = 15*(hy - 15)
-    weight_humidity = (hx - hy)*w
+    if dehumidify > 15:
+        w = 15*(dehumidify - 15)
+    weight_humidity = (humidity - dehumidify)*w
     balance         = 1000 - weight_humidity
     result          = (data[type]['price'])/balance
     return{
         'type'      :type,
         'name_eng'  :data[type]['nameeng'],
         'weight'    :w,
-        'humidity'  :hx,
-        'dehumidify':hy,
+        'humidity'  :humidity,
+        'dehumidify':dehumidify,
         'totol'     :result,
         'unit'      :"bath/kg"
     }
